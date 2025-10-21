@@ -52,8 +52,6 @@ def delete_task(task_index):
         print(f" Đã xóa công việc: {removed_task['name']}")
     else:
         print(" Chỉ số công việc không hợp lệ!")
-
-
 # Chương trình chính
 if __name__ == "__main__":
     print("=== TO-DO LIST APP ===")
